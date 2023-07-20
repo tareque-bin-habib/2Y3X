@@ -1,0 +1,37 @@
+.black {
+    background: url('../../assets/Rectangle\ 42.jpg');
+    height: 570px;
+}
+
+.layer {
+    background: url('../../assets//Mask\ group.png');
+    height: 570px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Resonsive */
+@media only screen and (max-width: 820px) {
+    .layer h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .layer h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .layer h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    .layer h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,399 @@
+.result {
+    background: url('../../assets//Mask\ group.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review {
+    border: 2px solid orange;
+    width: 440px;
+    height: 325px;
+}
+
+.overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+
+    /* opacity: 0; */
+    transition: 0.4s;
+}
+
+.review:hover .overlay {
+    opacity: 1;
+    background: #FFB902;
+}
+
+.star:hover {
+    color: black;
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1450px) {
+    .head h1 {
+        font-size: 50px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 400px;
+        height: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1220px) {
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .head h3 {
+        font-size: 15px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 400px;
+        height: 250px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .head h1 {
+        font-size: 30px;
+    }
+
+    .head h3 {
+        font-size: 15px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review p {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 350px;
+        height: 200px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1060px) {
+    .result-new {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .review {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 50px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 30px;
+    }
+
+    .review p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 300px;
+        height: 350px;
+        margin-right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 905px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 30px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review h3 {
+        font-size: 17px;
+    }
+
+    .review p {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 280px;
+        height: 370px;
+        margin-right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 850px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 30px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 20px;
+    }
+
+    .review h3 {
+        font-size: 17px;
+    }
+
+    .review p {
+        font-size: 12px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 250px;
+        height: 300px;
+        margin-right: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 760px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 30px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 17px;
+    }
+
+    .review h3 {
+        font-size: 15px;
+    }
+
+    .review p {
+        font-size: 11px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 200px;
+        height: 300px;
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 603px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 15px;
+    }
+
+    .review h3 {
+        font-size: 12px;
+    }
+
+    .review p {
+        font-size: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+        width: 170px;
+        height: 300px;
+        margin-right: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 470px) {
+    .one {
+        display: none;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .head h3 {
+        font-size: 20px;
+    }
+
+    .review h1 {
+        font-size: 18px;
+    }
+
+    .review p {
+        font-size: 11px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 0px;
+    }
+
+    .review {
+
+        width: 300px;
+        height: 250px;
+        margin-right: 0;
+    }
+
+
+}

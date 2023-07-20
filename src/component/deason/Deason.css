@@ -1,0 +1,76 @@
+.deason {
+    background: url('../../assets//Rectangle\ 17.jpg');
+    height: 744px;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Resonsive */
+@media only screen and (max-width: 1300px) {
+    .deason-content h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .deason-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .deason {
+        width: 100%;
+        height: 1250px;
+    }
+
+    .deason-content h1 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 700;
+    }
+
+    .deason-content h3 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .deason-content h2 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .con-img {
+        padding-right: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .deason-content h1 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .deason-content h3 {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .deason-content h2 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .deason {
+        width: 100%;
+        height: 900px;
+    }
+
+
+}

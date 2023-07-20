@@ -1,0 +1,43 @@
+.over {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+    /* opacity: 0; */
+    transition: 0.4s;
+}
+
+.work:hover .over {
+    opacity: 1;
+    background: #FFB902;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1300px) {
+    .content-text h1 {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .content-head h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1035px) {
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content-text h1 {
+        font-size: 25px;
+    }
+
+    .content-head {
+        width: 100%;
+    }
+}

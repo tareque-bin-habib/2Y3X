@@ -1,0 +1,81 @@
+.hindside {
+    background: url('../../assets/Group\ 292.jpg');
+    height: 963px;
+    background-size: cover;
+}
+
+.hindside-button {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.hindside-button:hover {
+    background-color: white;
+    transition: 0.4s;
+    color: black;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1100px) {
+    .hindside h1 {
+        text-align: center;
+    }
+
+    .hindside h2 {
+        text-align: center;
+    }
+
+    .hindside h3 {
+        text-align: center;
+    }
+
+    .hideside-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .problem {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .hindside h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .hindside h2 {
+        text-align: center;
+    }
+
+    .hindside h3 {
+        text-align: center;
+    }
+
+    .hideside-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hindside {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mainContent {
+
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .hindside {
+        display: none;
+    }
+}

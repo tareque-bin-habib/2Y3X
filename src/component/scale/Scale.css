@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1240px) {
+    .scale h1 {
+        font-size: 50px;
+    }
+
+    .scale h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    .scale h1 {
+        font-size: 40px;
+    }
+
+    .scale h3 {
+        font-size: 20px;
+    }
+
+    .scale img {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 970px) {
+    .scale h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .scale h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .scale img {
+        width: 80%;
+    }
+
+    .scale {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .scalLogo {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+}

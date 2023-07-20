@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1160px) {
+    .pod {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .pod {
+        flex-direction: column;
+    }
+
+    .sound {
+        width: 80%;
+    }
+
+    .pod-con {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .mini {
+        display: none;
+    }
+}

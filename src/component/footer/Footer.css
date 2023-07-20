@@ -1,0 +1,51 @@
+.mainBanner {
+    background: url('../../assets/Rectangle\ 42.jpg');
+    height: 740px;
+}
+
+.footerLayer {
+    background: url('../../assets//Capa\ 1.png');
+    height: 740px;
+    background-repeat: no-repeat;
+}
+
+.footer-button {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.footer-button:hover {
+    background-color: orange;
+    transition: 0.4s;
+    color: black;
+    border: 2px solid orange;
+}
+
+.bottomBanner {
+    background: url('../../assets/Rectangle\ 42.jpg');
+    height: 200px;
+    border-top: 1px solid gray;
+    position: relative;
+}
+
+/*Responsive  */
+@media only screen and (max-width: 950px) {
+    .res-banner {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .mainBanner {
+        height: 1000px;
+        padding-top: 0;
+    }
+
+    .footer-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .bottomBanner h2 {
+        font-size: 10px;
+    }
+}

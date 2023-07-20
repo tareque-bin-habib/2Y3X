@@ -1,0 +1,71 @@
+.grown {
+    width: 600px;
+}
+
+.grown-logo {
+    border-bottom: 2px solid #FFB902;
+}
+
+.grown-over {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+    /* opacity: 0; */
+    transition: 0.4s;
+}
+
+.first:hover .grown-over {
+    opacity: 1;
+    background: #FFB902;
+}
+
+@media only screen and (max-width: 1510px) {
+    .grown h1 {
+        font-size: 50px;
+    }
+
+    .four {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .grown h1 {
+        font-size: 40px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .grown h1 {
+        font-size: 40px;
+    }
+
+    .four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .grown h1 {
+        font-size: 40px;
+    }
+
+    .four {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (max-width: 609px) {
+    .main {
+        display: none;
+    }
+}
